@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Dashboard</title>
+</head>
+<body>
+  <h1>Sales by Payment Method</h1>
+  <div class="container_payment">
+    <canvas id="paymentMethodChart"></canvas>
+    <canvas id="salesChart"></canvas>
+  </div>
+
+  <h1>Sum of sales based on product types</h1>
+  <div class="conatiner_chart">
+    <canvas id="chart"></canvas>
+  </div>
+
+  <button id="employeeBtn" onclick="window.location.href='funcionarios.html'">Funcionários</button>
+
+  <label for='theme' class="checkbox-label">
+	<input type="checkbox" name="theme" id="theme">
+	<span class="checkbox-checkmark"></span>
+	Mudar Tema
+  </label>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+  <script src="darkMode.js"></script>
+</body>
+</html>

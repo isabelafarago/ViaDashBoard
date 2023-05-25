@@ -1,0 +1,62 @@
+[
+	{
+		"id": 6,
+		"nome": "IVONETE",
+		"bruto": 137944.88,
+		"desconto": 13555.96,
+		"vendaCancelada": 320.75,
+		"itemCancelado": 0,
+		"liquido": 124068.17,
+		"image_url": "https://cdn-icons-png.flaticon.com/512/4974/4974985.png"
+	},
+	{
+		"id": 8,
+		"nome": "POLIANA",
+		"bruto": 124359.23,
+		"desconto": 8904.14,
+		"vendaCancelada": 40.89,
+		"itemCancelado": 0,
+		"liquido": 115414.2,
+		"image_url": "https://cdn-icons-png.flaticon.com/512/4974/4974985.png"
+	},
+	{
+		"id": 3,
+		"nome": "JACQUELINE",
+		"bruto": 59638.3,
+		"desconto": 6637.66,
+		"vendaCancelada": 367,
+		"itemCancelado": 0,
+		"liquido": 52633.64,
+		"image_url": "https://cdn-icons-png.flaticon.com/512/4974/4974985.png"
+	},
+	{
+		"id": 2,
+		"nome": "ELIAS",
+		"bruto": 13744.86,
+		"desconto": 987.8,
+		"vendaCancelada": 0,
+		"itemCancelado": 0,
+		"liquido": 12757.06,
+		"image_url": "https://cdn-icons-png.flaticon.com/512/4974/4974985.png"
+	},
+	{
+		"id": 10,
+		"nome": "MILENA",
+		"bruto": 2496.86,
+		"desconto": 119.52,
+		"vendaCancelada": 0,
+		"itemCancelado": 0,
+		"liquido": 2377.34,
+		"image_url": "https://cdn-icons-png.flaticon.com/512/4974/4974985.png"
+	},
+	{
+		"id": 5,
+		"nome": "MARIA FERNANDA",
+		"bruto": 52.49,
+		"desconto": 1.86,
+		"vendaCancelada": 0,
+		"itemCancelado": 0,
+		"liquido": 50.63,
+		"image_url": "https://cdn-icons-png.flaticon.com/512/4974/4974985.png"
+	}
+]
