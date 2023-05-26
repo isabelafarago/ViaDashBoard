@@ -1,0 +1,175 @@
+[	{
+	"id": 8,
+	"nome": "TRANSFERENCIA BANCARIA",
+	"idVendedor": 6,
+	"total": 50354.61
+},
+{
+	"id": 3,
+	"nome": "CARTAO DEBITO",
+	"idVendedor": 6,
+	"total": 37762.84
+},
+{
+	"id": 4,
+	"nome": "CARTAO CREDITO",
+	"idVendedor": 6,
+	"total": 26623.19
+},
+{
+	"id": 1,
+	"nome": "DINHEIRO",
+	"idVendedor": 6,
+	"total": 7367.6
+},
+{
+	"id": 10,
+	"nome": "ANTECIPADO",
+	"idVendedor": 6,
+	"total": 1959.93
+},
+{
+	"id": 8,
+	"nome": "TRANSFERENCIA BANCARIA",
+	"idVendedor": 8,
+	"total": 47411.77
+},
+{
+	"id": 3,
+	"nome": "CARTAO DEBITO",
+	"idVendedor": 8,
+	"total": 24551.06
+},
+{
+	"id": 4,
+	"nome": "CARTAO CREDITO",
+	"idVendedor": 8,
+	"total": 18660.92
+},
+{
+	"id": 1,
+	"nome": "DINHEIRO",
+	"idVendedor": 8,
+	"total": 15243.21
+},
+{
+	"id": 9,
+	"nome": "BOLETO",
+	"idVendedor": 8,
+	"total": 6770.03
+},
+{
+	"id": 10,
+	"nome": "ANTECIPADO",
+	"idVendedor": 8,
+	"total": 3177.21
+},
+{
+	"id": 8,
+	"nome": "TRANSFERENCIA BANCARIA",
+	"idVendedor": 3,
+	"total": 20441.41
+},
+{
+	"id": 9,
+	"nome": "BOLETO",
+	"idVendedor": 3,
+	"total": 12523.76
+},
+{
+	"id": 4,
+	"nome": "CARTAO CREDITO",
+	"idVendedor": 3,
+	"total": 8092.29
+},
+{
+	"id": 3,
+	"nome": "CARTAO DEBITO",
+	"idVendedor": 3,
+	"total": 7774.96
+},
+{
+	"id": 1,
+	"nome": "DINHEIRO",
+	"idVendedor": 3,
+	"total": 3567.96
+},
+{
+	"id": 10,
+	"nome": "ANTECIPADO",
+	"idVendedor": 3,
+	"total": 233.26
+},
+{
+	"id": 8,
+	"nome": "TRANSFERENCIA BANCARIA",
+	"idVendedor": 2,
+	"total": 6217.42
+},
+{
+	"id": 1,
+	"nome": "DINHEIRO",
+	"idVendedor": 2,
+	"total": 2915.6
+},
+{
+	"id": 3,
+	"nome": "CARTAO DEBITO",
+	"idVendedor": 2,
+	"total": 2002.91
+},
+{
+	"id": 4,
+	"nome": "CARTAO CREDITO",
+	"idVendedor": 2,
+	"total": 1157
+},
+{
+	"id": 10,
+	"nome": "ANTECIPADO",
+	"idVendedor": 2,
+	"total": 499.13
+},
+{
+	"id": 3,
+	"nome": "CARTAO DEBITO",
+	"idVendedor": 10,
+	"total": 1125.01
+},
+{
+	"id": 4,
+	"nome": "CARTAO CREDITO",
+	"idVendedor": 10,
+	"total": 787.33
+},
+{
+	"id": 1,
+	"nome": "DINHEIRO",
+	"idVendedor": 10,
+	"total": 315
+},
+{
+	"id": 8,
+	"nome": "TRANSFERENCIA BANCARIA",
+	"idVendedor": 10,
+	"total": 150
+},
+{
+	"id": 3,
+	"nome": "CARTAO DEBITO",
+	"idVendedor": 5,
+	"total": 34.43
+},
+{
+	"id": 1,
+	"nome": "DINHEIRO",
+	"idVendedor": 5,
+	"total": 14.7
+},
+{
+	"id": 4,
+	"nome": "CARTAO CREDITO",
+	"idVendedor": 5,
+	"total": 1.5
+}
+]

@@ -1,24 +1,32 @@
 :root {
-	--background-color: #11161f;
+	--background-color: #071649;
 	--text-color: #ffff;
-	--input-color: #ffff;
-	--background-canvas: #2E3442;
+	--input-color: #a49292;
+	--background-canvas: #4561b4; 
+	--color-border: #071649;
 	--box-shadow: 4px 5px 12px 3px rgba(0, 0, 0, 0.4);
+	--color-buttom: #4e5d81;
 }
   
 body {
 	font-family: Arial, sans-serif;
 	background-color: var(--background-color);
-	margin: 0px 40px;
+	margin: 0px 150px;
 	color: var(--text-color);
 }
 
 .light-mode {
-	--background-color: #d8d6ef;
-	--background-canvas: #e6e9ef;
-	--text-color: #11161f;
-	--input-color: #ff0000;
-	--box-shadow: 1px 1px 5px 3px rgb(0 0 0 / 5%);
+	--background-color: #d9d6f4;
+	--background-canvas: #acb0f8; 
+	--color-border: #d0dee2cb;
+	--text-color: #264072;
+	--input-color: #ddd5d5;
+	--box-shadow: 0px 0px 0px 0px rgba(187, 126, 126, 0.842);
+	--color-buttom: #acb0f8;;
+}
+
+.container_month {
+	border: 1px solid var();
 }
 
 input[type="checkbox"] {
@@ -36,9 +44,15 @@ h1 {
 	margin-bottom: 45px;
 }
 
+.index-title {
+	display: flex;
+	justify-content: space-between;
+}
+
 h2{
 	display: flex;
 	justify-content: center;
+	font-size: 1.3em;
 }
 
 p {
@@ -49,24 +63,40 @@ p {
 }
 
 button {
-	display: block;
 	margin: 20px auto;
+	flex-shrink: 0;
 	padding: 10px 20px;
-	border-radius: 5px;
+	border-radius: 50px;
 	font-weight: 700;
 	border: none;
 	text-decoration: none;
-	background-color: #6f4caf;
-	color: white;
+	background-color: var(--color-buttom);
+	color: rgb(255, 255, 255);
+}
+
+button:hover {
+	background-color: #7d9dd2;
+	cursor: pointer;
+}
+
+.button-index {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+#backButton {
+	position: absolute;
+	left: 76%;
+}
+
+#employeeBtn {
+	position: absolute;
+	right: 47%;
 }
 
 .employee_button {
 	display: flex;
-
-}
-
-#backButton {
-	margin-right: 150px;
+	flex-shrink: 0;
 }
 
 .employee {
@@ -84,11 +114,6 @@ button {
 	font-size: large;
 
 }
-
-button:hover {
-	background-color: #392068;
-	cursor: pointer;
-}
   
 #employeeData {
 
@@ -98,19 +123,18 @@ button:hover {
 	justify-content: center;
 	text-align: center;
 	margin: 0 auto;
-	color: white;
-	background-color: #2E3442;
+	background-color: var(--background-canvas);
+	border: 1px solid var(--color-border);
 	border-radius: 10px;
     box-shadow: var(--box-shadow);
 	width: 20.33%;
 	float: right;
-
 }
 
 img {
 	position: relative;
 	align-items: center;
-	width: 210px;
+	width: 175px;
     margin-bottom: 7px;
 }
 
@@ -118,20 +142,25 @@ img {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	color: white;
+	cursor: pointer;
+
 }
 
 #employeeData ul li {
 	margin-bottom: 10px;
-	font-size: 18px;
+	font-size: 15px;
+	color: var(--text-color);
+	background-color: var(--background-canvas);
 
 }
 
 .container_payment {
-	display: flex;
-	justify-content: space-around;
-	width: 100%;
-	height: 581px;
+    display: flex;
+    gap: 20px;
+    height: 360px;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
 }
   
 #paymentMethodChart,
@@ -142,19 +171,20 @@ img {
 }
 
 #chart {
+	margin-top: 20px;
 	padding: 10px 35px;
-	margin-left: 10px;
 }
 
 #paymentMethodChart {
-	padding: 50px;
+	display: block;
+    box-sizing: border-box;
+
 }
 
-
 canvas {
-	margin-left: 25px;
 	padding: 20px 17px 20px 17px;
 	background-color: var(--background-canvas);
+	border: 10px var(--color-border);
 	color: aliceblue;
 	border-radius: 10px;
 	box-shadow: var(--box-shadow);
@@ -169,26 +199,30 @@ canvas {
 
 .container_employee { 
 	display: flex;
+	margin-top: 60px;
 }
 
 .employeeChartContainer {
 	width: 72.66%;
 	float: left;
+	border: 1px solid var(--color-border);
+	border-radius: 10px;
 
 }
 
 .title_employee {
 	font-weight: 900;
-	color: #ffffff;
+	color: var(--text-color);
 }
   
 .checkbox-label {
+
 	display: inline-block;
-	position: relative;
-	padding-left: 25px;
-	margin-bottom: 10px;
-	cursor: pointer;
-	line-height: 21px;
+    position: relative;
+    padding-left: 27px;
+    margin-top: 28px;
+    cursor: pointer;
+    line-height: 21px;
 
 }
 
@@ -234,9 +268,8 @@ canvas {
 
 
 .checkbox-label input:checked ~ .checkbox-checkmark {
-	background-color: #8e21f3;
+	background-color: #214ff3;
 }
   
-
 
 
