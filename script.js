@@ -258,7 +258,7 @@ fetch('data/data2.json')
       }),
       datasets: [
         {
-          label: "Noo presente mês: ",
+          label: "No presente mês: ",
           data: sortedIds.map(function (id) {
             return idTotals[id];
           }),
