@@ -25,7 +25,7 @@ To use the `script.js` file effectively, make sure to follow these guidelines:
 2. Customize the configuration settings, such as API endpoints or data sources, to match your specific requirements.
 3. Implement additional features or modify existing ones as needed.
 
-### Deployment
+## Deployment
 
 The ViaDashBoard application is deployed and accessible at the following link:
 [ViaDashBoard Deployment](https://isabelafarago.github.io/ViaDashBoard/)
