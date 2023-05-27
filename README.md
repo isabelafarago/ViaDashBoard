@@ -27,9 +27,11 @@ To use the `script.js` file effectively, make sure to follow these guidelines:
 
 ## Contact
 
-If you have any questions or suggestions regarding the ViaDashBoard project, feel free to contact the project maintainer:
+If you have any questions or suggestions regarding the ViaDashBoard project, feel free to contact me:
 
 - Name: Isabela Ferreira Da Silva
 - Email: [0800isabelaferreira@gmail.com](mailto:0800isabelaferreira@gmail.com)
+- Discord Username: isabelaffarago#7754
+
 
 ----
