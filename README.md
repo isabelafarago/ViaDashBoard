@@ -29,7 +29,7 @@ To use the `script.js` file effectively, make sure to follow these guidelines:
 
 If you have any questions or suggestions regarding the ViaDashBoard project, feel free to contact the project maintainer:
 
-- Name: Isabela Farago
+- Name: Isabela Ferreira Da Silva
 - Email: [0800isabelaferreira@gmail.com](mailto:0800isabelaferreira@gmail.com)
 
 ----
